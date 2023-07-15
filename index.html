@@ -1,0 +1,900 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+    <script src="https://kit.fontawesome.com/04db911f76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <title>Sky Store</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container">
+            <h3><i class="fa-solid fa-cart-shopping"></i></h3>
+        <a class="navbar-brand font-weight-bold" href="#">SKY STORE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-4">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-light" href="#">Reseller <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#">Hubungi<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#">Bantuan <span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <div class="icon mt-2">
+            <h5>
+              <i class="fa-solid fa-cart-plus ml-3 mr-3" data-toggle="tooltip" title="Keranjang Belanja"></i>
+              <i class="fa-solid fa-envelope mr-3" data-toggle="tooltip" title="Pesan"></i>
+              <i class="fa-solid fa-bell mr-3" data-toggle="tooltip" title="Notif"></i>
+            </h5>
+          </div>
+        </div>
+    </div>
+      </nav>
+
+      <div class="row mt-5 no-gutters ">
+        <div class="col-md-2 bg-light">
+          <ul class="list-group list-group-flush p-2 pt-2">
+            <li class="list-group-item bg-success"><i><i class="fa-solid fa-list mr-2"></i></i>KATEGORI PRODUK</li>
+            <li class="list-group-item"><i class="fas fa-angle-right mr-1"></i>Elektronik</li>
+            <li class="list-group-item"><i class="fas fa-angle-right mr-1"></i>Aksesoris</li>
+            <li class="list-group-item"><i class="fas fa-angle-right mr-1"></i>Fashion Pria</li>
+            <li class="list-group-item"><i class="fas fa-angle-right mr-1"></i>Fashion Wanita</li>
+          </ul>
+        </div>
+        <div class="col-md-10">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slide/slide1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide/slide2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide/slide3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <h4 class="text-center font-weight-bold m-4">PRODUK TERBARU</h4>
+
+          <div class="row mx-auto">
+            <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/originate/originate1.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-light">
+                <h5 class="card-title">Hyalucera Moisturizer</h5>
+                <p class="card-text">The Originote Hyalucera Moisturizer Gel - pelembab wajah memperbaiki skin barrier muka dan menghidrasi kulit wajah</p><br>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning "></i><br>
+                <a href="#" class="btn btn-primary" data-target="#produk1" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-danger" data-target="#product1" data-toggle="modal">Rp.42.000</a>
+              </div>
+            </div>
+
+            <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/originate/originate2.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-light">
+                <h5 class="card-title">Cicamide Facial Cleanser</h5>
+                <p class="card-text">Pembersih wajah yang ringan, dapat membantu membersihkan minyak, 
+                  bekas makeup, dan sisa debu pada permukaan wajah, dengan kandungan Ceramide dan 
+                  Niacinamide untuk membantu menjaga skin barrier dan mencerahkan wajah.</p><br>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning "></i><br>
+                <a href="#" class="btn btn-primary" data-target="#produk2" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-danger" data-target="#product2" data-toggle="modal">Rp.34.000</a>
+              </div>
+            </div>
+
+            <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/originate/originate3.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-light">
+                <h5 class="card-title">Corcoal Clay Mask</h5>
+                <p class="card-text">Membantu Membersihkan dan memberi rasa kencang pada kulit
+                  Membantu menghaluskan kulit
+                  Membantu mengangkat kulit mati
+                  Membantu mencerahkan wajah</p><br>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning "></i><br>
+                <a href="#" class="btn btn-primary" data-target="#produk3" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-danger" data-target="#product3" data-toggle="modal">Rp.36.000</a>
+              </div>
+            </div>
+
+            <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/originate/originate4.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-light">
+                <h5 class="card-title">Ceraluronic Essence Toner</h5>
+                <p class="card-text">Toner yang diformulasikan dengan Ceramide, Hyaluron dan Heartleaf yang dapat 
+                  membantu dalam merawat skin barrier, sebagai penyegar kulit dan 
+                  membantu menenangkan kulit yang teriritasi secara ringan.</p><br>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning "></i><br>
+                <a href="#" class="btn btn-primary" data-target="#produk4" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-danger" data-target="#product4" data-toggle="modal">Rp.35.000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mx-auto mt-5">
+            <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/originate/originote1.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-light">
+                <h5 class="card-title">Glowing Kit</h5>
+                <p class="card-text">The Originote Cicamide Facial Cleanser
+                  - Membersihkan wajah dari debu, minyak dan sisa makeup
+                  - Anti inflamasi
+                  - Membantu menjaga dan memperbaiki skin barrier
+                  - Mencerahkan wajah</p><br>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning "></i><br>
+                <a href="#" class="btn btn-primary" data-target="#produk5" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-danger" data-target="#product5" data-toggle="modal">Rp.115.000</a>
+              </div>
+            </div>
+
+            <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/originate/originote2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body bg-light">
+                <h5 class="card-title">Exfoliating Kit</h5>
+                <p class="card-text">3in1 The Originote Paker Skincare Moisturizer Serum Toner - ACNE KIT, GLOWING KIT, 
+                  BARRIER KIT, ANTI AGING KIT, EXFOLIATING KIT</p><br>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning "></i><br>
+                <a href="#" class="btn btn-primary" data-target="#produk6" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-danger" data-target="#product6" data-toggle="modal">Rp.134.000</a>
+              </div>
+            </div>
+
+            <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/originate/originote3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body bg-light">
+                <h5 class="card-title">Anti Aging</h5>
+                <p class="card-text">SPECIAL BUNDLE The Originote Skincare Face Wash Toner Serum Moisturizer Sunscreen
+                  Anti Aging
+                </p><br>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning "></i><br>
+                <a href="#" class="btn btn-primary" data-target="#produk7" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-danger" data-target="#product7" data-toggle="modal">Rp.150.000</a>
+              </div>
+            </div>
+
+            <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/originate/originote4.jpg" class="card-img-top" alt="...">
+              <div class="card-body bg-light">
+                <h5 class="card-title">Acne Kit</h5>
+                <p class="card-text">READY STOK SPECIAL BUNDLE 5in1 The Originote Paket Skincare Face Wash 
+                  Toner Serum Moisturizer Sunscreen - ACNE KIT</p><br>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star-half-alt text-warning "></i><br>
+                <a href="#" class="btn btn-primary" data-target="#produk8" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-danger" data-target="#product8" data-toggle="modal">Rp.185.000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="produk1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/originate/originate1.jpg" width="300" height="300">
+                    </div>
+                    <div class="col-md-6">
+                      <table class="table table-borderless">
+                        <tr>
+                          <th>Nama Produk</th>
+                          <td>Hyalucera Moisturizer</td>
+                        </tr>
+                        <tr>
+                          <th>Merk/Type</th>
+                          <td>The Originote</td>
+                        </tr>
+                        <tr>
+                          <th>Biaya Ongkir</th>
+                          <td>Standar</td>
+                        </tr>
+                        <tr>
+                          <th>Rating Produk</th>
+                          <td><i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star-half-alt text-warning "></i><br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>Stok Produk</th>
+                          <td>50 Pcs</td>
+                        </tr>
+                        <tr>
+                          <th>Harga</th>
+                          <td>Rp.42.000</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Kembali</button>
+                  <button type="button" class="btn btn-primary" data-target="#product1" data-toggle="modal">Beli</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="product1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Pembelian</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              PEMBELIAN ANDA BERHASIL
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="produk2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="img/originate/originate2.jpg" width="300" height="300">
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-borderless">
+                    <tr>
+                      <th>Nama Produk</th>
+                      <td>Cicamide Facial Cleanser</td>
+                    </tr>
+                    <tr>
+                      <th>Merk/Type</th>
+                      <td>The Originote</td>
+                    </tr>
+                    <tr>
+                      <th>Biaya Ongkir</th>
+                      <td>Standar</td>
+                    </tr>
+                    <tr>
+                      <th>Rating Produk</th>
+                      <td><i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star-half-alt text-warning "></i><br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Stok Produk</th>
+                      <td>50 Pcs</td>
+                    </tr>
+                    <tr>
+                      <th>Harga</th>
+                      <td>Rp.34.000</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Kembali</button>
+              <button type="button" class="btn btn-primary" data-target="#product2" data-toggle="modal">Beli</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="product2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Pembelian</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          PEMBELIAN ANDA BERHASIL
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="produk3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/originate/originate3.jpg" width="300" height="300">
+            </div>
+            <div class="col-md-6">
+              <table class="table table-borderless">
+                <tr>
+                  <th>Nama Produk</th>
+                  <td>Corcoal Clay Mask</td>
+                </tr>
+                <tr>
+                  <th>Merk/Type</th>
+                  <td>The Originote</td>
+                </tr>
+                <tr>
+                  <th>Biaya Ongkir</th>
+                  <td>Standar</td>
+                </tr>
+                <tr>
+                  <th>Rating Produk</th>
+                  <td><i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star-half-alt text-warning "></i><br>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Stok Produk</th>
+                  <td>50 Pcs</td>
+                </tr>
+                <tr>
+                  <th>Harga</th>
+                  <td>Rp.36.000</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Kembali</button>
+          <button type="button" class="btn btn-primary" data-target="#product3" data-toggle="modal">Beli</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="product3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pembelian</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        PEMBELIAN ANDA BERHASIL
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="produk4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/originate/originate4.jpg" width="300" height="300">
+          </div>
+          <div class="col-md-6">
+            <table class="table table-borderless">
+              <tr>
+                <th>Nama Produk</th>
+                <td>Ceraluronic Essence Toner</td>
+              </tr>
+              <tr>
+                <th>Merk/Type</th>
+                <td>The Originote</td>
+              </tr>
+              <tr>
+                <th>Biaya Ongkir</th>
+                <td>Standar</td>
+              </tr>
+              <tr>
+                <th>Rating Produk</th>
+                <td><i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star-half-alt text-warning "></i><br>
+                </td>
+              </tr>
+              <tr>
+                <th>Stok Produk</th>
+                <td>50 Pcs</td>
+              </tr>
+              <tr>
+                <th>Harga</th>
+                <td>Rp.35.000</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Kembali</button>
+        <button type="button" class="btn btn-primary" data-target="#product4" data-toggle="modal">Beli</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="product4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pembelian</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        PEMBELIAN ANDA BERHASIL
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="produk5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/originate/originote1.jpg" width="300" height="300">
+          </div>
+          <div class="col-md-6">
+            <table class="table table-borderless">
+              <tr>
+                <th>Nama Produk</th>
+                <td>Glowing Kit</td>
+              </tr>
+              <tr>
+                <th>Merk/Type</th>
+                <td>The Originote</td>
+              </tr>
+              <tr>
+                <th>Biaya Ongkir</th>
+                <td>Standar</td>
+              </tr>
+              <tr>
+                <th>Rating Produk</th>
+                <td><i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star-half-alt text-warning "></i><br>
+                </td>
+              </tr>
+              <tr>
+                <th>Stok Produk</th>
+                <td>50 Pcs</td>
+              </tr>
+              <tr>
+                <th>Harga</th>
+                <td>Rp.115.000</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Kembali</button>
+        <button type="button" class="btn btn-primary" data-target="#product5" data-toggle="modal">Beli</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="product5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pembelian</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        PEMBELIAN ANDA BERHASIL
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="produk6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/originate/originote2.jpeg" width="300" height="300">
+          </div>
+          <div class="col-md-6">
+            <table class="table table-borderless">
+              <tr>
+                <th>Nama Produk</th>
+                <td>Exfoliating Kit</td>
+              </tr>
+              <tr>
+                <th>Merk/Type</th>
+                <td>The Originote</td>
+              </tr>
+              <tr>
+                <th>Biaya Ongkir</th>
+                <td>Standar</td>
+              </tr>
+              <tr>
+                <th>Rating Produk</th>
+                <td><i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star-half-alt text-warning "></i><br>
+                </td>
+              </tr>
+              <tr>
+                <th>Stok Produk</th>
+                <td>50 Pcs</td>
+              </tr>
+              <tr>
+                <th>Harga</th>
+                <td>Rp.134.000</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Kembali</button>
+        <button type="button" class="btn btn-primary" data-target="#product6" data-toggle="modal">Beli</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="product6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pembelian</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        PEMBELIAN ANDA BERHASIL
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="produk7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/originate/originote3.jpeg" width="300" height="300">
+          </div>
+          <div class="col-md-6">
+            <table class="table table-borderless">
+              <tr>
+                <th>Nama Produk</th>
+                <td>Anti Aging</td>
+              </tr>
+              <tr>
+                <th>Merk/Type</th>
+                <td>The Originote</td>
+              </tr>
+              <tr>
+                <th>Biaya Ongkir</th>
+                <td>Standar</td>
+              </tr>
+              <tr>
+                <th>Rating Produk</th>
+                <td><i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star-half-alt text-warning "></i><br>
+                </td>
+              </tr>
+              <tr>
+                <th>Stok Produk</th>
+                <td>50 Pcs</td>
+              </tr>
+              <tr>
+                <th>Harga</th>
+                <td>Rp.150.000</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Kembali</button>
+        <button type="button" class="btn btn-primary" data-target="#product7" data-toggle="modal">Beli</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="product7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pembelian</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        PEMBELIAN ANDA BERHASIL
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="produk8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/originate/originote4.jpg" width="300" height="300">
+          </div>
+          <div class="col-md-6">
+            <table class="table table-borderless">
+              <tr>
+                <th>Nama Produk</th>
+                <td>Acne Kit</td>
+              </tr>
+              <tr>
+                <th>Merk/Type</th>
+                <td>The Originote</td>
+              </tr>
+              <tr>
+                <th>Biaya Ongkir</th>
+                <td>Standar</td>
+              </tr>
+              <tr>
+                <th>Rating Produk</th>
+                <td><i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star-half-alt text-warning "></i><br>
+                </td>
+              </tr>
+              <tr>
+                <th>Stok Produk</th>
+                <td>50 Pcs</td>
+              </tr>
+              <tr>
+                <th>Harga</th>
+                <td>Rp.185.000</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Kembali</button>
+        <button type="button" class="btn btn-primary" data-target="#product8" data-toggle="modal">Beli</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="product8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pembelian</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        PEMBELIAN ANDA BERHASIL
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <footer class="bg-dark text-white p-5">
+        <div class="row">
+          <div class="col-md-3">
+            <h5>Layanan Pelanggan</h5>
+            <ul>
+              <li>Pusat Bantuan</li>
+              <li>Cara Pembelian</li>
+              <li>Pengiriman</li>
+              <li>Cara Pengembalian</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Tentang Kami</h5>
+            <p>TUGAS RESPONSI PEMROGRAMAN WEB DISURUH BUAT TOKO SKINCARE</p>
+          </div>
+          <div class="col-md-3">
+            <h5>Mitra Kerjasama</h5>
+            <ul>
+              <li>GOJEK</li>
+              <li>GRAB</li>
+              <li>JNE</li>
+              <li>POS INDONESIA</li>
+              <li>TIKI</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Hubungi Kami</h5>
+            <ul>
+              <li>087899838538</li>
+              <li>andika.prayitno@store.id</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <div class="copyright text-center text-white font-weight-bold bg-success p-1">
+        <p>Developed by Andika Prayitno Copyright <i class="far fa-copyright"></i>2023</p>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script type="text/JavaScript" src="script.js"></script>
+  </body>
+</html>
